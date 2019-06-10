@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import content from '../content/home.md';
-
+import newContent from '../content/contact/_index.md';
 export default class Home extends Component {
     render() {
+        console.log(newContent);
         let { html , attributes:{ title, cats } } = content;
         return (
             <article>
