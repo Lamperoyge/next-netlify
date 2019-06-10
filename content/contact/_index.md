@@ -1,5 +1,5 @@
 ---
 title: Test
-logo: /img/supreme.jpg
+logo: /img/zhang-h-489657-unsplash.jpg
 ---
 llalalalalalalalalal
