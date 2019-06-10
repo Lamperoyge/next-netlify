@@ -8,6 +8,7 @@ export default class Home extends Component {
         return (
             <article>
                 <h1>{title}</h1>
+                <img src={newContent.attributes.logo}></img>
                 <div dangerouslySetInnerHTML={{ __html: html }}/>
                 <ul>
                     { cats.map((cat, k) => (
